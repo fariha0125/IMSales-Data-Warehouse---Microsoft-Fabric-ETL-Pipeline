@@ -5,10 +5,10 @@ Hands-on implementation of a dimensional data warehouse for IMSales, a B2B food 
 ## Core Skills:
 Star schema design, Fabric Dataflows Gen2, Pipelines, SQL DW, data quality validation. 
 ### Skills Demonstrated
-•	Dimensional modeling (star schema, hierarchies, grains).
-•	Microsoft Fabric: Lakehouse, Dataflows Gen2, Pipelines, SQL DW.
-•	ETL best practices: Staging, DQ logging, varied activities (Copy + Dataflow).
-•	SQL: DDL, surrogate keys, constraints.
+- Dimensional modeling (star schema, hierarchies, grains).
+- Microsoft Fabric: Lakehouse, Dataflows Gen2, Pipelines, SQL DW.
+- ETL best practices: Staging, DQ logging, varied activities (Copy + Dataflow).
+- SQL: DDL, surrogate keys, constraints.
 
 ## Project Overview
 - **Source**: IMSALES OLTP (Orders, Order Details, Clients, Products, etc. ~20-50k rows).
