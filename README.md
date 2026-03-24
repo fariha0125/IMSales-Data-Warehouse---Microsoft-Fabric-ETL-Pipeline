@@ -22,7 +22,12 @@ The database structure is a star schema structure which consist of the below tab
 
 <img width="1584" height="846" alt="image" src="https://github.com/user-attachments/assets/148b2399-4ac0-4e50-91dc-e15231e068b2" />
 
+
 The Fact table measures and Diemnsion table hierarchies details can be found here (add link)
+| Table          | Grain                                          | Measures                                                        |
+| -------------- | ---------------------------------------------- | --------------------------------------------------------------- |
+| fact_sales     | Order line (date–product–client–staff–shipper) | sales_unit_price, sales_unit_qty, sales_discount_percimage.jpg​ |
+| fact_inventory | Product per date                               | cost_units_stocked, qty_units_stockedDW-table-query.docx​       |
 
 ## Fabric Implementation (add files)
 - Workspace:Project1_IMSALES  Workspace.png
