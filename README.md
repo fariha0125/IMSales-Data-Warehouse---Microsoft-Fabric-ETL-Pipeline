@@ -37,9 +37,12 @@ The database structure is a star schema which consist of the below tables.
 - dim_staff: Territory/Region/Country; age/seniority.
 - dim_shipper: Coverage.
 
-## Fabric Implementation (add files)
-- Workspace:Project1_IMSALES  Workspace.png
-- Staging:
+## Fabric Implementation 
+**Workspace**: Project1_IMSALES 
+<img width="2776" height="616" alt="Workspace IMSALES" src="https://github.com/user-attachments/assets/4c5dd85c-4167-4e81-96b9-5bcf1aa84362" />
+
+- Staging Area:
+- STG_PROJECT1_IMSALES DW
 - Pipelines:
 - Key Dataflows 
 
